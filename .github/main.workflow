@@ -1,4 +1,4 @@
-workflow "Update gist with latest tweet" {
+workflow "Update gist with latest tweets" {
   on = "push"
   resolves = ["update-gist"]
 }
